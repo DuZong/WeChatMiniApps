@@ -1,0 +1,21 @@
+<!--index.wxml-->
+<view class="about">
+ <view><image src='../../img/user.jpg' style='width:100px;height:100px;margin-left:155px;'></image></view>
+  <view style='color:cyan;font-size:15px;text-align:center;'></view>
+</view>
+
+<view style='width:50px;height:50px;'><open-data type="userAvatarUrl"></open-data></view>
+<view><open-data type="userNickName" lang = "zh_CN"></open-data></view>
+  <view>
+    <open-data type="userCountry"  lang = "zh_CN"></open-data>
+    <open-data type="userProvince" style = 'margin-left:30px;' lang = "zh_CN" ></open-data>
+  </view>
+
+<view><button bindtap='choose'>
+  绑定车牌
+  <image src='{{tempFilePaths}}'></image>
+</button></view>  
+<button form-type='submit' bindtap='fabu'>上传
+</button>
+
+<view>当前车牌号码为：{{plateNumber}}</view>

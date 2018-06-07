@@ -1,0 +1,7 @@
+<view bindtap="getAddress">
+  <view class="map">
+    <text class="iconfont icon-map"></text>
+    <input name="city" class="width2" value="{{city}}" disabled/>
+  </view>
+</view>
+

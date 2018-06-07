@@ -1,0 +1,25 @@
+<!--index.wxml-->
+<!--<view class="map_container"> 
+  <map class="map" id="map" longitude="{{longitude}}" latitude="{{latitude}}" scale="14" show-location="true" markers="{{markers}}" bindmarkertap="makertap"></map> 
+</view> -->
+<view class="flex-style">
+  <view class="flex-item active" bindtouchstart="goToCar">驾车</view>
+  <view class="flex-item" bindtouchstart="goToWalk">步行</view>
+  <view class="flex-item" bindtouchstart="goToBus">公交</view>
+  <view class="flex-item" bindtouchstart="goToRide">骑行</view>
+</view>
+<view class="map_box">
+  <map id="navi_map" longitude="116.17" latitude="23.29" scale="12" markers="{{markers}}" polyline="{{polyline}}"></map>
+</view>
+
+<view class="text_box">
+  <view class="text">{{distance}}</view>
+  <view class="text">{{cost}}</view>
+  <view class="detail_button" bindtouchstart="goDetail">详情</view>
+</view>
+
+<view class="place_info"> 
+  <text>{{placeData.title}}</text> 
+  <text>{{placeData.address}}</text> 
+  <text>{{placeData.telephone}}</text> 
+</view> 

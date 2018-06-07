@@ -1,0 +1,32 @@
+@import "../../modules/chat-input/chat-input.wxss";
+page {
+    background-color: #EFEFEF;
+}
+
+.Btn{
+  position: fixed;
+  width: 100%;
+  background: #fff;
+  line-height: 1.2;
+  height: 60px;
+}
+
+.Btn p{
+  width:50%;
+  float: left;
+  text-align: center;
+}
+
+.Btn image{
+  display: inline-block;
+  float: left;
+  color: #7bb6eb;
+  width: 100%;
+}
+
+.Btn span{
+  display: inline-block;
+  float: left;
+  color: #7bb6eb;
+  width: 100%;
+}

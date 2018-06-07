@@ -1,0 +1,38 @@
+<import src="../../modules/chat-input/chat-input.wxml" />
+
+
+<!--<view>
+  <view style='width:47px;height:47px;float:right;'><open-data type="userAvatarUrl"></open-data></view>
+  <view style='float:right;'><button>成功是赌的开始6月运气怎么样？</button></view>
+
+</view>
+
+
+<view style='margin-top:70px;position:absolute;'>
+    <view><image src='../../img/money.jpg' style='width:47px;height:47px;float:left;'></image>
+     <view style='float:left;'><button>六六大顺 没得说！发财月！</button></view>
+    </view>
+   
+</view>
+
+<view style='margin-top:140px;position:absolute;margin-left:236px;' >
+  <view style='width:47px;height:47px;float:right;'><open-data type="userAvatarUrl"></open-data></view>
+  <view style='float:right;'><button>谢谢财神爷！</button></view>
+
+</view> -->
+
+<view class='Btn'>
+  <button class='kf_button' open-type="contact" >
+  <image src='../../img/chat2.jpg' ></image>
+  <text class='span' style='font-size:20px;'>咨询客服</text>
+  </button>
+  <button bindtap='phone' >
+  <text class='span' style='font-size:20px;'>联系我们</text>
+  </button>
+</view>
+
+
+
+
+
+<template is="chat-input" data="{{inputObj:inputObj,textMessage:textMessage,showVoicePart:true}}" />

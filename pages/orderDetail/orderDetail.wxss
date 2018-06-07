@@ -1,0 +1,24 @@
+.message .iconfont:before {
+  color: #ffe400;
+  font-size: 50rpx;
+  position: relative;
+  top: -8rpx;
+  left: -4rpx;
+}
+
+.icon-map2 {
+  font-size: 40rpx;
+}
+.map {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  width: 370rpx;
+  margin-top: 30px;
+  }
+
+.width2 {
+  color: #FFF;
+  font-size:28rpx;
+  width: 400rpx;
+}

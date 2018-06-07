@@ -1,0 +1,43 @@
+{
+  "pages":[
+    "pages/lists/lists",
+    "pages/chat/chat",
+    "pages/index/index",
+    "pages/orderDetail/orderDetail",
+    "pages/logs/logs",
+    "pages/user/user",
+    "pages/terrace/terrace",
+    "pages/inputtip/inputtip",
+    "pages/routes/routes",
+    "pages/info/info"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "TX",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/lists/lists",
+      "text": "首页",
+      "iconPath": "img/timg1.jpg",
+      "selectedIconPath": "img/timg1.jpg"
+    },{
+      "pagePath": "pages/user/user",
+      "text": "用户",
+      "iconPath": "img/user.jpg",
+      "selectedIconPath": "img/user.jpg"
+    },{
+      "pagePath": "pages/terrace/terrace",      
+      "text": "关于我们",
+      "iconPath": "img/parks.jpg",
+      "selectedIconPath": "img/parks.jpg"
+    },{
+      "pagePath":"pages/chat/chat",
+      "text":"在线客服",
+      "iconPath":"img/chat.jpg",
+      "selectedIconPath":"img/chat.jpg"
+    }]
+  }
+}
